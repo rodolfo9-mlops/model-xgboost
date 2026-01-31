@@ -1,0 +1,151 @@
+############################
+# 🖥️ OS / System files
+############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+############################
+# 🧠 Python cache / bytecode
+############################
+_pycache_/
+*.py[cod]
+*$py.class
+*.pyo
+
+############################
+# 🐍 Virtual environments
+############################
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+############################
+# 📦 Python packaging
+############################
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+############################
+# 🧪 Pytest / Coverage
+############################
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+nosetests.xml
+test-results/
+
+############################
+# 📊 ML / Data artifacts
+############################
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.ckpt
+
+# Allow trained models explicitly if needed
+!model/.gitkeep
+
+############################
+# 📓 Jupyter
+############################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+############################
+# 🐳 Docker
+############################
+*.log
+docker-compose.override.yml
+
+############################
+# ⚙️ Environment variables
+############################
+.env
+.env.*
+*.secret
+*.key
+
+############################
+# ✍️ VS Code
+############################
+.vscode/
+!.vscode/extensions.json
+
+############################
+# 🧠 PyCharm / IntelliJ
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################
+# ✏️ Vim
+############################
+*.swp
+*.swo
+*.swn
+*.swm
+*.bak
+*~
+
+############################
+# 🧠 Emacs
+############################
+\#*\#
+.\#*
+*.elc
+auto-save-list/
+
+############################
+# 🛠️ MyPy / Ruff / Linters
+############################
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyright/
+
+############################
+# 🧾 Logs
+############################
+logs/
+*.log
+
+############################
+# 🔥 FastAPI / Uvicorn
+############################
+uvicorn.log
+
+############################
+# 🧠 Conda
+############################
+.conda/
+conda-meta/
+
+############################
+# 🧪 Temporary files
+############################
+tmp/
+temp/
+*.tmp
