@@ -1,4 +1,4 @@
-from _future_ import annotations
+from __future__ import annotations
 
 import os
 from typing import List
@@ -40,7 +40,7 @@ class DiabetesInferenceService:
     Servicio de inferencia para el modelo de diabetes.
     """
 
-    def _init_(self, model_path: str) -> None:
+    def __init__(self, model_path: str) -> None:
         """
         Inicializa el servicio.
 

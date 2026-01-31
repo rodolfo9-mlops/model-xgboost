@@ -1,4 +1,4 @@
-from _future_ import annotations
+from __future__ import annotations
 
 import os
 from typing import Tuple
@@ -23,7 +23,7 @@ class DiabetesXGBoostTrainer:
     - Persistir el artefacto entrenado en disco
     """
 
-    def _init_(
+    def __init__(
         self,
         model_dir: str = "model",
         random_state: int = 42,
@@ -112,6 +112,6 @@ class DiabetesXGBoostTrainer:
         )
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     trainer = DiabetesXGBoostTrainer()
     trainer.train()
